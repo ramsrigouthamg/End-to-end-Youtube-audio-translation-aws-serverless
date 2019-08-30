@@ -1,25 +1,41 @@
-# AWS Artificial Intelligence Hackathon 2018
 
-## End to end Video Translation Platform
-Imagine watching any youtube video (eg: Documentary) with audio in your own language.
-We built an end to end video translation platform using AWS AI services that just does that in one click without human intervention.
+
+## End to end Youtube audio Translation Platform using AWS serverless architecture (AWS lambda)
+Imagine watching any youtube video (eg: Documentary) with audio in your native language irrespective of what its original language was.
+This is an end to end video translation platform using AWS AI services that just does that in one click without human intervention.
 
 ### Input:
-The input to the program is a youtube video url link in any language. Works best for single speaker videos (Eg: Documentaries, Monologues etc). Currently only English and Spanish are supported by Amazon Transcribe.
+The input to the program is a youtube video url link in any language. Works best for single speaker videos (Eg: Documentaries, Monologues etc). Currently only English and Spanish input languages are supported by Amazon Transcribe.
 So input youtube url link should be in English(US) or Spanish(US).
  
+But if you adapt this to Google cloud services you could work with many other languages.
+ 
 ### Output
-The output is a downloaded video with the audio track in the language of your choice.
+The output is a downloaded video with the audio track modified in the language of your choice.
 
-A demo can be seen at:
+A demo can be seen here:
+https://www.youtube.com/playlist?list=PLeIs-OgljgIwCJwJUFqWTRZVzM0VTyT4D
+
+Here we are converting an English (USA accent) documentary into different languages (Spanish and Russian)  different accents (English - Indian).
+
+**1st Video :** Original English Audio (American Accent)
+**2nd Video :** Translated English Audio (Indian Accent)
+**3rd Video :** Translated into Spanish Audio
+**4th Video :** Translated into Russian Audio
+
+
+Another demo can be seen at:
 https://www.youtube.com/playlist?list=PLeIs-OgljgIyrYeAp7K26I88KfOePJHu4
 
-In the above demo you can see a playlist with two videos.  
+In this demo you can see a playlist with two videos.  
 **1st Video :** English Original Audio  
 **2nd Video :** Translated Audio in Chinese (English subtitles available generated using Amazon Transcribe)
 
-#Important
+# Important
 Replace the video_translate_credentials.csv in the repository with your own credentials file that has permissions to use the services in AWS that are called.
+
+Create appropriate S3 buckets with the bucket names in Jupyter ipython notebook. Will be evident once you look at the code in jupyter notebook.
+
 
 # Installation
 [Create a conda environment.](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
