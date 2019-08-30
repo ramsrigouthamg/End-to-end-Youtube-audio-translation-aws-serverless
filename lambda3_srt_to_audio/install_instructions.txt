@@ -1,0 +1,11 @@
+pip install -t ./ pysrt
+pip install -t ./ pydub
+pip install -t ./ moviepy
+pip install -t ./ pydub
+
+ffmpeg path:
+https://github.com/imageio/imageio-binaries/raw/master/ffmpeg/ffmpeg.linux64
+https://github.com/sparkgene/lambda_image_to_video
+
+Install original numpy and install numpy from here:
+https://github.com/vitolimandibhrata/aws-lambda-numpy/tree/master/numpy
