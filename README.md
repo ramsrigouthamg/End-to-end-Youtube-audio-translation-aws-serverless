@@ -1,6 +1,6 @@
 
 
-## End to end Youtube audio Translation Platform using AWS serverless architecture (AWS lambda)
+## AI Automated dubbing : End to end Youtube audio Translation Platform using AWS serverless architecture (AWS lambda)
 Imagine watching any youtube video (eg: Documentary) with audio in your native language irrespective of what its original language was.
 This is an end to end video translation platform using AWS AI services that just does that in one click without human intervention.
 
