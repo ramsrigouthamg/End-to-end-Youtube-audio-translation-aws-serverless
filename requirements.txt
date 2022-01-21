@@ -9,7 +9,7 @@ docutils==0.14
 idna==2.7
 imageio==2.4.1
 ipykernel==5.1.0
-ipython==7.0.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.1
 jmespath==0.9.3
